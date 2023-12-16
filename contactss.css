@@ -1,0 +1,227 @@
+*{
+	margin: 0 ;
+	padding: 0;
+	font-family: 'Times New Roman';
+	box box-sizing: border-box;
+
+}
+h1{
+	text-align: center;
+	color:green;
+	padding: 20px;
+    margin-right: auto;
+
+    
+}
+nav{
+    
+    background-color: rgb(177, 241, 92);
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-shadow: 10px 5px rgb(177, 241, 92);
+
+}
+
+/* Style for the icons in the navigation bar */
+section nav .icon i {
+    font-size: 18px;
+    color: black;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+body {
+    overflow-x: hidden;
+  }
+
+section nav .icon i:hover {
+    color: lawngreen;
+}
+section nav .icon{
+    display: flex; /* Enable flex properties for the icon container */
+    align-items: center; /* Vertically align child elements */
+    margin-left: auto; 
+}
+
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    /* Align list items horizontally */
+ 
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s ease-in;
+}
+nav ul a:hover{
+	background-color: green;
+    color: white;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+nav .logo img {
+    width: 80px;
+}
+nav .logo h2 {
+    margin-left: 60px;
+    padding: 40px;
+    color: green;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+
+.menuwords{
+  margin-top:12px;
+  justify-content: space-between;
+}
+
+.facebook{
+  margin-left: 500px;
+  
+}
+.login{
+position: relative;
+ left: ;
+  margin: 4px 2px;
+  cursor: pointer
+}
+.logout{
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+  left: 50px;
+
+}
+
+
+
+
+.facebook{
+  left: 50px;
+}
+.logo .img{
+    width: 50px;
+   cursor: pointer;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+
+.main{
+    width: 500px;
+    height: 200px;
+    border: solid greenyellow;
+    margin: 100px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px; /* Adjust distance from the navbar */
+    background-color: rgb(177, 241, 92);
+}
+.hehehe{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.menu{
+    width: 500px;
+    height: 200px;
+    border: solid greenyellow;
+    margin-left: 25px;
+    text-align: center;
+    padding: 50px;
+    background-color: ;
+    background-color: rgb(177, 241, 92);
+
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+video{
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 100px;
+    margin-top: 800px;
+}
+.wrapper {
+    text-align: center;
+    margin-top: 20px; /* Adjust the top margin as needed */
+  }
+  
+  .wrapper img {
+    width: 50%;
+  }
+  
+  .wrapper p {
+    font-size: 20px;
+    margin-top: 10px; /* Adjust the top margin as needed */
+  }
+  
+  .login{
+    position:absolute;
+    margin-left: 51%;
+  }
+.fa-phone-volume{
+    margin-right: 20px;
+    padding-right: -10px;
+    padding-bottom: 20px;
+}
+
+.hahaha{
+    display: flex;
+}
+
+.menu{
+    margin-top: 3.4%;
+    margin-right: 105px;
+}
+.video{
+    position:absolute;
+    margin-left: 5%;
+    display: flex;
+    bottom: -25%;
+    background-color: rgb(177, 241, 92);
+    left: 5%;
+}
+
+.video2{
+    position:relative;
+    left: 18%;
+    margin-top: -3%;
+}
+.Diri{
+    position: absolute;
+    font-size: 50px;
+    left:200px;
+    bottom: 10%;
+}
+.atay{
+    position: absolute;
+    font-size: large;
+    margin-left: 2.5%;
+    bottom: -240px;
+}
+
+.hilo{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.helo{
+    font-size: 30px;
+}
